@@ -3,7 +3,27 @@ import java.util.Scanner;
 import java.util.Locale;
 public class UserInputScanner {
     public static void main(String[] args){
-        Scanner scaner = new Scanner(System.in).useLocale(Locale.US);
+
+        Scanner scanner =new Scanner(System.in);//defining a scanner class to take ınput
+
+       /* System.out.println("what is your lucky number ? ");
+int luckynumber = scanner.nextInt();
+        System.out.println("your lucky number is "+ luckynumber);
+
+        System.out.println("what is yor height eg.(1,75 )");
+        double height=scanner.nextDouble();
+        scanner.nextLine();
+
+        System.out.println("what is your name? ");
+        String name = scanner.nextLine();
+
+        int destinynumber= (int)(luckynumber/height);
+        System.out.println( name+"' s \t" + "destiny number is "+ destinynumber);
+
+
+
+
+       Scanner scaner = new Scanner(System.in).useLocale(Locale.US);
         System.out.print("What is your name");
         String name = scaner.nextLine();
 
@@ -18,5 +38,9 @@ public class UserInputScanner {
         System.out.println("Age" + age );
         System.out.println("Height" + height);
         scaner.close();
+
+       */
+
     }
 }
+
