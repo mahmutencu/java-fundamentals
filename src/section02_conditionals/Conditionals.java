@@ -17,7 +17,8 @@ public class Conditionals {
 
         Scanner scanner = new Scanner(System.in);
 
-       /* System.out.println(
+        //understanding the  if condition
+        System.out.println(
                 " welcome to the java world\n " +
                 "how old are you ? ");
           int age = scanner.nextInt();
@@ -29,7 +30,7 @@ public class Conditionals {
               System.out.println(" welcom to the java world\n " +
                       "please dont forgget \n" +
                       "your only limit is your imagination ");
-              }*/
+              }
 
         /* If with multi else ıf kod blocks  */
 
